@@ -22,7 +22,7 @@ body {
     color: #060707;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FBF6E9;
-    
+
 
 
 }
@@ -55,19 +55,19 @@ ul {
 
 .Suscribete {
 
-background-color: #b086b0;
-font-weight: bold;
-color: #060707;
-padding: 10px 14px;
-border-radius: 14px;
+    background-color: #b086b0;
+    font-weight: bold;
+    color: #060707;
+    padding: 10px 14px;
+    border-radius: 14px;
 
 }
 
-.Agendar{
+.Agendar {
 
-background-color: #06D001;
-font-weight: bold;
-color: #fff;
-padding: 10px 14px;
-border-radius: 14px;
+    background-color: #06D001;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 14px;
 }
