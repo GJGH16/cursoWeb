@@ -1,0 +1,27 @@
+/* seteo de estilo*/
+
+* {
+
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+
+    /*propiedad magica*/
+    box-sizing: border-box;
+
+    font-size: 16px;
+}
+
+
+/* el resto del seteo se hace en el body*/
+
+body {
+
+    color: #060707;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FBF6E9;
+
+}
+
+.
