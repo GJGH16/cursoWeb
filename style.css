@@ -11,6 +11,7 @@
     box-sizing: border-box;
 
     font-size: 16px;
+    font-weight: 400;
 }
 
 
@@ -21,7 +22,52 @@ body {
     color: #060707;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FBF6E9;
+    
+
 
 }
 
-.
+.encabezado {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 33px;
+
+}
+
+.lista-navar {
+
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+    /* justify-content: space-between; ==  grap automatico*/
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+.Suscribete {
+
+background-color: #b086b0;
+font-weight: bold;
+color: #060707;
+padding: 10px 14px;
+border-radius: 14px;
+
+}
+
+.Agendar{
+
+background-color: #06D001;
+font-weight: bold;
+color: #fff;
+padding: 10px 14px;
+border-radius: 14px;
+}
