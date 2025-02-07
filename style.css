@@ -71,3 +71,36 @@ ul {
     padding: 10px 14px;
     border-radius: 14px;
 }
+
+
+
+.Fondo {
+
+    padding: 75px;
+    background-image: url(/assets/3.jpg);
+    background-size: cover;
+    height: 548px;
+    background-position: center;
+
+}
+
+.texto-jumbo {
+
+    display: flex;
+    color: #fff;
+    padding: 90px;
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.texto-jumbo h1 {
+
+    font-weight: bold;
+    font-size: 53px;
+    width: 776px;
+    text-align: center;
+
+
+}
