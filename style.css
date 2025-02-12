@@ -33,6 +33,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 14px 33px;
+    background-color: #ffffff43;
+    border-radius: 14px;
 
 }
 
@@ -55,7 +57,7 @@ ul {
 
 .Suscribete {
 
-    background-color: #b086b0;
+    background-color: #FBF6E9;
     font-weight: bold;
     color: #060707;
     padding: 10px 14px;
@@ -101,18 +103,63 @@ ul {
     font-size: 53px;
     width: 776px;
     text-align: center;
+    background-color: #ffffff2a;
+    border-radius: 14px;
 
 
 }
 
-.tarjeta1{
+.tarjetas {
 
-    /*display: flex;  */
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 23px 60px;
+    gap: 44px;
+    flex-basis: 360px;
+
+    justify-content: center;
+
+    width: 100%;
+
+    text-align: center;
 
 }
-.Jumbo2{
+
+.tarjetas img {
+
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+
+
+}
+
+.tarjetas h2 {
+
+    font-size: 30px;
+    padding: 12px;
+}
+
+.tarjeta1 {
+
+    flex-basis: 276px;
+    gap: 20px;
+
+
+}
+
+.iconos img {
+
+    width: 45px;
+    height: 40px;
+    object-fit: cover;
+
+
+}
+
+.iconos {}
+
+.Jumbo2 {
 
     padding: 75px;
     background-image: url(/assets/Jumbo2.jpg);
@@ -123,41 +170,111 @@ ul {
 
 }
 
-.Jumbo2 h3{
+.Jumbo2 h3 {
 
 
     font-weight: bold;
     font-size: 53px;
     width: 776px;
-    text-align:start;
+    text-align: center;
     display: flex;
     color: #fff;
     padding: 90px;
-
-  /*  justify-content: center; 
-    align-content: center; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 
 }
 
 
 
-img{ width: 180px;height: 180px;}
+
 
 .footer {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     padding: 14px 33px;
+    font-size: 16px;
+
 
 }
 
 .footer1 {
 
     display: flex;
-    gap: 35px;
-    flex-direction:column;
+    gap: 20px;
+    flex-direction: column;
     justify-content: start;
     align-items: center;
-    
+
+
+}
+
+.lista1 {
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+
+}
+
+.lista2 {
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+
+}
+
+.lista2 li {
+
+    display: flex;
+    gap: 20px;
+}
+
+.cajafooter {
+
+    display: flex;
+    align-items: center;
+}
+
+.cajafooter button {
+
+    background-color: #06D001;
+    width: 100%;
+    height: 56px;
+    padding: 10px 40px;
+    border-radius: 14px;
+    justify-content: center;
+    transform: translateX(-30px);
+
+}
+
+.caja {
+
+    background-color: #2b2e3c9b;
+    min-width: max-content;
+
+    height: 74;
+    padding: 25px 66px;
+    border-radius: 14px;
+
+
+}
+
+.caja h5 {
+
+    color: #fff;
+    text-align: center;
+    width: 100%;
+
+}
+
+.tips {
+
+    color: #06D001;
 }
