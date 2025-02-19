@@ -97,6 +97,17 @@ ul {
 
 }
 
+.iconos{
+
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #E3F0AF ;
+}
+
 .texto-jumbo h1 {
 
     font-weight: bold;
@@ -116,11 +127,8 @@ ul {
     padding: 23px 60px;
     gap: 44px;
     flex-basis: 360px;
-
     justify-content: center;
-
     width: 100%;
-
     text-align: center;
 
 }
@@ -144,6 +152,7 @@ ul {
 
     flex-basis: 276px;
     gap: 20px;
+    border-radius: 54px;
 
 
 }
